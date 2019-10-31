@@ -1,17 +1,49 @@
-# COMS-W4995-Deep-Learning-Project
-COMS W4995 Deep Learning Project
+# COMS W4995 Deep Learning Project
+
+COMS W4995 Deep Learning Project source code
+
+## Getting Started
+
+This is th instruction to run our project code.
+
+### Setting up Python Virtual Environments 
+
+```
+python3 -m venv tutorial-env
+```
+
+On Unix or MacOS, run:
+
+```
+source venv/bin/activate
+```
+
+* [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html) - virtual environment tutorial
 
 
-## 1. Gym and Stable Baselines environment set up
+### Installing
 
-step 1: follow the instruction on Gym's website, and install Gym
+Install required third party libraries
 
-step 2: locate the directory where you install Gym, and go to the directory: gym/gym/envs/
+```
+pip3 install -r requirements.txt
+```
 
-step 3: replace the \_\_init\_\_.py file in this directory with the one on Github
+Install our custom gym envionrment `gym-trading-4995`
+```
+pip3 install -e gym-trading-4995
+```
 
-step 4: unzip the equity.rar, and put it in this directory as well, the folder name should be "equity"
 
-step 5: follow the instruction on Stable Baselines' website and install stable-baselines library
+## Running
 
-step 6: run Kai's code, it should go through successfully
+Run `main.ipynb`
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Professor Drori and TAs
