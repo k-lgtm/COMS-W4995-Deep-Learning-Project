@@ -4,21 +4,7 @@ COMS W4995 Deep Learning Project source code
 
 ## Getting Started
 
-This is th instruction to run our project code.
-
-### Setting up Python Virtual Environments 
-
-```
-python3 -m venv tutorial-env
-```
-
-On Unix or MacOS, run:
-
-```
-source venv/bin/activate
-```
-
-* [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html) - virtual environment tutorial
+This is the instruction to run our project code.
 
 
 ### Installing
@@ -40,9 +26,6 @@ pip3 install -e gym-trading-4995
 Run `main.ipynb`
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
