@@ -1,2 +1,3 @@
 gym
 ./gym-trading-4995
+stable-baselines[mpi]
