@@ -30,3 +30,8 @@ Run `main.ipynb`
 ## Acknowledgments
 
 * Professor Drori and TAs
+
+
+## Readings
+
+https://janakiev.com/blog/jupyter-virtual-envs/
