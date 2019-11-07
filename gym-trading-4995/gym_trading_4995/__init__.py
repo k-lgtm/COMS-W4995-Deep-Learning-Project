@@ -13,7 +13,7 @@ register(
     entry_point='gym_trading_4995.envs:TrainAgentEnv',
     max_episode_steps=120,
     reward_threshold=100000000,
-    kwargs={'test': 0},
+    kwargs={'test': 0, 'transaction_ratio': 0},
 )
 
 register(

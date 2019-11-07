@@ -2,12 +2,12 @@ import gym
 from gym import error, spaces, utils
 from gym.utils import seeding
 
-class TradingEnv(gym.Env):
-    def __init__(self):
-        pass
+# class TradingEnv(gym.Env):
+#     def __init__(self):
+#         pass
 
-    def step(self, action):
-        raise NotImplementedError
+#     def step(self, action):
+#         raise NotImplementedError
         
         
         
