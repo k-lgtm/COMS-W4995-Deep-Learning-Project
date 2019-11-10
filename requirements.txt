@@ -1,2 +1,3 @@
 gym
 optunity
+stable-baselines[mpi]

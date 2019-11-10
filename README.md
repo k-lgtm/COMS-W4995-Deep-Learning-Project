@@ -12,10 +12,14 @@ Yuechen Yang <yy2608@columbia.edu>
 
 This is the instruction to run our project code.
 
-### Installing
 Clone the repo
 ```
-https://github.com/yyc982/COMS-W4995-Deep-Learning-Project.git
+git clone https://github.com/yyc982/COMS-W4995-Deep-Learning-Project.git
+```
+
+Install system packages
+```
+sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zlib1g-dev
 ```
 
 Install required libraries
@@ -24,9 +28,9 @@ Install required libraries
 pip3 install -r requirements.txt
 ```
 
-### Running
-
 Run `main.ipynb` 
+
+
 
 
 
