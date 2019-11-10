@@ -12,24 +12,21 @@ Yuechen Yang <yy2608@columbia.edu>
 
 This is the instruction to run our project code.
 
-
 ### Installing
+Clone the repo
+```
+https://github.com/yyc982/COMS-W4995-Deep-Learning-Project.git
+```
 
-Install required third party libraries
+Install required libraries
 
 ```
 pip3 install -r requirements.txt
 ```
 
-Install our custom gym envionrment `gym-trading-4995`
-```
-pip3 install -e gym-trading-4995
-```
+### Running
 
-
-## Running
-
-Run `rl_source_code.ipynb` in equity folder
+Run `main.ipynb` 
 
 
 
