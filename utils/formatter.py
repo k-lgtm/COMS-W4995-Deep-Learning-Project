@@ -2,7 +2,7 @@ from matplotlib.ticker import Formatter
 import datetime as dt
 import time
 
-class MyFormatter(Formatter):
+class DateFormatter(Formatter):
     """
     Formats dates for plotting
     """
@@ -17,4 +17,4 @@ class MyFormatter(Formatter):
             return ''
         else:
             return self.dates[ind].strftime(self.fmt)
-        
+
