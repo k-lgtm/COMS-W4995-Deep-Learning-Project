@@ -17,7 +17,7 @@ This is the instruction to run our project code.
 git clone https://github.com/yyc982/COMS-W4995-Deep-Learning-Project.git
 ```
 
-#### Install system packages
+#### Install required system packages
 ```
 sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zlib1g-dev
 ```
