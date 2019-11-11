@@ -31,9 +31,6 @@ pip3 install -r requirements.txt
 #### Run `main.ipynb` 
 
 
-
-
-
 ## Acknowledgments
 
 * Professor Drori and TAs
