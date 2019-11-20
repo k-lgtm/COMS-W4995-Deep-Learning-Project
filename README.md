@@ -25,7 +25,7 @@ sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zli
 #### Install required libraries
 
 ```
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 
 #### Run `main.ipynb` 
