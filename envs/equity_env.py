@@ -53,7 +53,7 @@ class EquityEnv(gym.Env):
 
         # Training Params
         self.split_data = split_data
-        period = len(self.close_prices)
+        period = len(self.dates)
         self.test_length = round(period/500)*100 #7200
         self.train_period = np.arange(0, period-2*self.test_length) #0 to 28800
         self.develop_period = np.arange(period-2*self.test_length, period-self.test_length)
@@ -77,10 +77,10 @@ class EquityEnv(gym.Env):
                 self.end_idx = self.develop_period[-1]
             elif self.test_option == "test":
                 self.start_idx = self.test_period[0]
-                self.end_idx = self.test_period[-1]
+                self.end_idx = self.test_period[-2]
             elif self.test_option == "full":
                 self.start_idx = self.train_period[0]
-                self.end_idx = self.test_period[-1]
+                self.end_idx = self.test_period[-2]
             else:
                 raise ValueError("The argument for test_option is invalid!")
         self.t = self.start_idx
