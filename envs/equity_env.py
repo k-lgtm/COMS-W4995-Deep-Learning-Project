@@ -55,7 +55,7 @@ class EquityEnv(gym.Env):
         self.split_data = split_data
         period = len(self.dates)
         self.test_length = round(period/500)*100 #7200
-        self.train_period = np.arange(0, period-2*self.test_length) #0 to 28800
+        self.train_period = np.arange(0, period-1*self.test_length) #0 to 28800
         self.develop_period = np.arange(period-2*self.test_length, period-self.test_length)
         self.test_period = np.arange(period-self.test_length, period) # 28800 to 36000
 
