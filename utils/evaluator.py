@@ -34,12 +34,12 @@ class Evaluator:
         return (np.maximum.accumulate(cum_pnl)[ind] - cum_pnl[ind]) / np.maximum.accumulate(cum_pnl)[ind]
 
 
-    def print_statistics(self, pnl, actions):
-        print("Annual Sharpe: {}".format(self.annual_sharpe(pnl)))
-        print("Annual Return: {}".format(self.annual_return(pnl)))
-        print("Annual Volatility: {}".format(self.annual_volatility(pnl)))
-        print("Annual Turnover: {}".format(self.annual_turnover(actions)))
-        print("Maximum Drawdown: {}".format(self.maximum_drawdown(pnl)))   
+    def print_statistics(self, agent_title, pnl, actions):
+        print(agent_title + " Annual Sharpe: {}".format(self.annual_sharpe(pnl)))
+        print(agent_title + " Annual Return: {}".format(self.annual_return(pnl)))
+        print(agent_title + " Annual Volatility: {}".format(self.annual_volatility(pnl)))
+        print(agent_title + " Annual Turnover: {}".format(self.annual_turnover(actions)))
+        print(agent_title + " Maximum Drawdown: {}".format(self.maximum_drawdown(pnl)))   
         
     def evaluate_short(self, model, environment, num_steps=40000):
         pnl = []
