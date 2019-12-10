@@ -2,7 +2,7 @@
 
 COMS W4995 Deep Learning Project source code
 
-# Team
+# Authors
 Kai Zhou <kz2329@columbia.edu>
 Kathleen He <kh3030@columbia.edu>
 Yuechen Yang <yy2608@columbia.edu>
@@ -39,5 +39,5 @@ Run `multi_agents.ipynb` for performance against multiple reinforcement learning
 
 ## Acknowledgments
 
-* Professor Drori and TAs
+Professor Drori and TAs
 
