@@ -10,8 +10,6 @@ Yuechen Yang <yy2608@columbia.edu>
 
 ## Getting Started
 
-This is the instruction to run our project code.
-
 #### Clone the repo
 ```
 git clone https://github.com/yyc982/COMS-W4995-Deep-Learning-Project.git
