@@ -1,6 +1,6 @@
 # COMS W4995 Deep Learning Project
 
-COMS W4995 Deep Learning Project source code
+This repo contains the source code of our deep learning project. 
 
 # Authors
 Kai Zhou <kz2329@columbia.edu>
