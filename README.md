@@ -41,8 +41,7 @@ sudo pip3 install -r requirements.txt
 `utils` : helper functions for data processing, data cleaning, evaluation metrics, optimizations, etc.
 
 
-
-## Main Scripts
+## Runnable Scripts
 
 Run `benchmarks.ipynb` for performance against traditional financial benchmarks
 
