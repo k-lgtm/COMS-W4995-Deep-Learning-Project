@@ -4,7 +4,9 @@ COMS W4995 Deep Learning Project source code
 
 # Authors
 Kai Zhou <kz2329@columbia.edu>
+
 Kathleen He <kh3030@columbia.edu>
+
 Yuechen Yang <yy2608@columbia.edu>
 
 
