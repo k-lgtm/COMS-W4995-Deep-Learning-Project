@@ -41,15 +41,15 @@ sudo pip3 install -r requirements.txt
 `utils` : helper functions for data processing, data cleaning, evaluation metrics, optimizations, etc.
 
 
-## Runnable Scripts
+## Scripts
 
-Run `benchmarks.ipynb` for performance against traditional financial benchmarks
+`benchmarks.ipynb`: performance against traditional financial benchmarks
 
-Run `competition.ipynb` for CUDL financial competition methods
+`competition.ipynb`: CUDL financial competition methods with custom targets and weight optimizers
 
-Run `LSTM.ipynb` for CUDL financial using LSTM
+`LSTM.ipynb`: CUDL financial using LSTM with custom targets
 
-Run `multi_agents.ipynb` for performance against multiple reinforcement learning agents
+`multi_agents.ipynb`: performance against multiple reinforcement learning agents
 
 
 ## Acknowledgments
