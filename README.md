@@ -26,9 +26,18 @@ sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zli
 sudo pip3 install -r requirements.txt
 ```
 
-#### Run `main.ipynb` 
+# Main Scripts
+
+Run `benchmarks.ipynb` for performance against traditional financial benchmarks
+
+Run `competition.ipynb` for CUDL financial competition methods
+
+Run `LSTM.ipynb` for CUDL financial using LSTM
+
+Run `multi_agents.ipynb` for performance against multiple reinforcement learning agents
 
 
 ## Acknowledgments
 
 * Professor Drori and TAs
+
