@@ -28,6 +28,8 @@ sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zli
 sudo pip3 install -r requirements.txt
 ```
 ## Folder Descriptions
+`custom targets` : different target labels for training LSTMs and for optimization
+
 `data` : minute-level data and daily price data
 
 `envs` : multiple versions of our environments for reinforcement learning 
